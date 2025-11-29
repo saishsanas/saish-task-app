@@ -73,10 +73,7 @@ if (state.taskLists === null) {
               <p className="text-sm text-gray-500 mt-2">{list.count} tasks</p>
               <Progress
                 value={list.progress ? list.progress * 100 : 0}
-                className={{
-                              indicator: "bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500",
-                              track: "bg-white/10",
-                            }}
+                className="mt-2"
               />
             </CardBody>
           </Card>
